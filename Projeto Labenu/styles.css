@@ -1,0 +1,142 @@
+/*Global*/
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+ 
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+	text-align: center;
+}
+
+/*Header*/
+header{
+    background: #45525B;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F47D1F 3px solid;
+}
+
+#wallpaper{
+    background: #595E96;
+    height: 700px;
+    
+}
+
+#logo {
+    max-height: 100%;
+    text-align: center;
+}
+#logo .container img{
+    margin-top: 10%;
+     width: 40%;
+
+}
+
+/*Boxes*/
+#boxes{
+    margin-top: 20px;
+    
+}
+
+#boxes .container{
+	 text-align: center;
+     color:#ffffff;	 
+     
+}
+
+#boxes .box-mobile{
+    background-color: #58d68d ;
+}
+
+#boxes .box-data-science{
+    background-color: #ec7063;
+}
+
+#boxes .box-fullstack{
+    background-color: #3498db;
+}
+
+#boxes .box-mobile, .box-data-science, .box-fullstack{
+	display: inline-block;
+	width: 100px;
+    height: 80px;
+	padding: 15px;
+	margin: 10px;
+}
+
+#turma .container{
+	text-align: right;
+	color: #ffffff;
+    margin-top: 150px;
+    margin-right: 40px;
+    margin-bottom: -20px;
+    
+}
+
+#button{
+    height: 35px;
+    background: #45525B;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -5px;
+    color: #ffffff;
+}
+#button:hover{background-color:#A8BAC5;}
+#button:focus{background-color: #F6AF56;}
+
+
+footer{
+    padding: 53px;
+    color: #ffffff;
+    background-color: #F47D1F;
+    text-align: center;
+}
+
+footer input[type="text"]{
+    padding: 4px;
+    height: 25px;
+    width: 280px;
+}
+
+/*IphoneX*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+    footer{
+       padding: 12%;
+       height: 75px;
+    }
+    #logo .container img{
+        width: 80%;
+   
+   }
+   
+    #boxes .box-mobile, .box-data-science, .box-fullstack{
+       
+        width: 20%;
+        height: 15%;
+        padding: 15px;
+        margin: 10px;
+    }
+    footer input[type="text"]{
+        float: left;
+        padding: 4px;
+        height: 25px;
+        width: 210px;
+        margin-top: 20px;
+    }
+    #button{
+        height: 35px;
+        background: #45525B;
+        padding-left:0px;
+        padding-right: 20px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+
+
+}
