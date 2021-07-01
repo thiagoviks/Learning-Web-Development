@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Responsive Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-apple" aria-hidden="true"></i
+              ></span>
+              <span class="title"><h2>Brand Name</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-home" aria-hidden="true"></i
+              ></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-users" aria-hidden="true"></i
+              ></span>
+              <span class="title">Customers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-comments" aria-hidden="true"></i
+              ></span>
+              <span class="title">Message</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-question-circle" aria-hidden="true"></i
+              ></span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-cog" aria-hidden="true"></i
+              ></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-lock" aria-hidden="true"></i
+              ></span>
+              <span class="title">Password</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><i class="fa fa-sign-out" aria-hidden="true"></i
+              ></span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle" onclick="toggleMenu();"></div>
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search here" />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </label>
+          </div>
+          <div class="user">
+            <img src="./photos/user2.jpg" />
+          </div>
+        </div>
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">1659</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">100</div>
+              <div class="cardName">Sales</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">100</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa fa-comment" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">$10,000</div>
+              <div class="cardName">Earning</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa fa-usd" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Recent Orders</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Price</td>
+                  <td>Payment</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Window Coolers</td>
+                  <td>$100</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Speakers</td>
+                  <td>$200</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+                <tr>
+                  <td>Smartphone</td>
+                  <td>$4000</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Window Coolers</td>
+                  <td>$100</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>AMD Ryzen Threadripper 3990X</td>
+                  <td>$4,363.08</td>
+                  <td>Paid</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>RTX 3090</td>
+                  <td>$3,450.00</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Recent Customers</h2>
+            </div>
+            <table>
+              <tbody>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img1.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Isabel<br /><span>Brazil</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img2.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Cristiano<br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img3.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Steve<br /><span>Canada</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img4.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Amelia<br /><span>France</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img5.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Muhammad<br /><span>Israel</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img6.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>David<br /><span>Brazil</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img7.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Stella<br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBx"><img src="./photos/img8.jpg" /></div>
+                  </td>
+                  <td>
+                    <h4>Linda<br /><span>USA</span></h4>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
